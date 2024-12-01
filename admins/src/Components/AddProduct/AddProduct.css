@@ -1,0 +1,184 @@
+.addproduct {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 800px;
+  padding: 30px 50px;
+  margin: 20px 30px;
+  border-radius: 6px;
+  background: white;
+}
+
+.addproduct-itemfield {
+  width: 100%;
+  color: #7b7b7b;
+  font-size: 16px;
+}
+
+.addproduct-itemfield input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  border-radius: 4px;
+  padding-left: 15px;
+  border: 1px solid #c3c3c3;
+  outline: none;
+  color: #7b7b7b;
+  font-family: 'Poppins';
+  font-size: 14px;
+}
+
+.addproduct-price {
+  display: flex;
+  gap: 14px;
+}
+
+.add-product-selector {
+  padding: 10px;
+  width: 100px;
+  height: 50px;
+  font-size: 14px;
+  color: #7b7b7b;
+  border: 1px solid #7b7b7b;
+}
+
+.addproduct-thumnail-img {
+  height: 120px;
+  width: 120px;
+  border-radius: 10px;
+  object-fit: contain;
+  margin: 10px 0px;
+}
+
+.addproduct-btn {
+  margin-top: 20px;
+  width: 160px;
+  height: 50px;
+  border-radius: 6px;
+  background: #6079ff;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Media Queries */
+
+/* Medium Screens (max-width: 1200px) */
+@media (max-width: 1200px) {
+  .addproduct {
+    max-width: 700px;
+    padding: 20px 40px;
+    margin: 15px 20px;
+  }
+
+  .addproduct-itemfield {
+    font-size: 15px;
+  }
+
+  .addproduct-itemfield input {
+    height: 45px;
+    font-size: 13px;
+  }
+
+  .addproduct-price {
+    gap: 10px;
+  }
+
+  .add-product-selector {
+    width: 90px;
+    height: 45px;
+    font-size: 13px;
+  }
+
+  .addproduct-thumnail-img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .addproduct-btn {
+    width: 140px;
+    height: 45px;
+    font-size: 15px;
+  }
+}
+
+/* Small Screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .addproduct {
+    max-width: 500px;
+    padding: 20px;
+    margin: 10px 15px;
+  }
+
+  .addproduct-itemfield {
+    font-size: 14px;
+  }
+
+  .addproduct-itemfield input {
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .addproduct-price {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .add-product-selector {
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .addproduct-thumnail-img {
+    height: 90px;
+    width: 90px;
+  }
+
+  .addproduct-btn {
+    width: 130px;
+    height: 40px;
+    font-size: 14px;
+  }
+}
+
+/* Extra Small Screens (max-width: 576px) */
+@media (max-width: 576px) {
+  .addproduct {
+    max-width: 100%;
+    padding: 15px;
+    margin: 10px;
+  }
+
+  .addproduct-itemfield {
+    font-size: 13px;
+  }
+
+  .addproduct-itemfield input {
+    height: 35px;
+    font-size: 12px;
+  }
+
+  .addproduct-price {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .add-product-selector {
+    width: 100%;
+    height: 35px;
+    font-size: 12px;
+  }
+
+  .addproduct-thumnail-img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .addproduct-btn {
+    width: 120px;
+    height: 35px;
+    font-size: 12px;
+  }
+}
