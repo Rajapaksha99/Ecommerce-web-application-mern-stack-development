@@ -1,0 +1,116 @@
+.popular {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  height: 90vh;
+}
+
+.popular h1 {
+  color: #171717;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.popular hr {
+  width: 200px;
+  height: 6px;
+  border-radius: 10px;
+  background: #252525;
+}
+
+.popular-item {
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between; /* Maintain consistent spacing */
+  align-items: center; /* Align items vertically in the center */
+  width: 90%; /* Base width for the component container */
+}
+
+.popular-item > * {
+  flex: 1; /* Ensure all child elements grow equally */
+  max-width: 300px; /* Restrict maximum width of individual components */
+  min-width: 150px; /* Set a minimum width to prevent components from becoming too small */
+}
+
+.popular-item img {
+  width: 100%; /* Make images responsive */
+  max-width: 300px; /* Restrict maximum size */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+/* Media Queries */
+
+/* Large screens (1440px) */
+@media (max-width: 1440px) {
+  .popular h1 {
+    font-size: 45px;
+  }
+  .popular hr {
+    width: 180px;
+    height: 5px;
+  }
+  .popular-item {
+    width: 85%; /* Slightly reduce container width */
+    gap: 25px;
+  }
+  .popular-item > * {
+    max-width: 280px; /* Reduce maximum width of components */
+  }
+  .popular-item img {
+    max-width: 250px; /* Reduce image size */
+  }
+}
+
+/* Tablet screens (768px) */
+@media (max-width: 768px) {
+  .popular {
+    gap: 15px;
+  }
+  .popular h1 {
+    font-size: 40px;
+  }
+  .popular hr {
+    width: 150px;
+    height: 4px;
+  }
+  .popular-item {
+    width: 80%; /* Further reduce container width */
+    gap: 20px;
+  }
+  .popular-item > * {
+    max-width: 220px; /* Adjust component width */
+  }
+  .popular-item img {
+    max-width: 200px; /* Reduce image size further */
+  }
+}
+
+/* Mobile screens (480px) */
+@media (max-width: 480px) {
+  .popular {
+    gap: 10px;
+    padding: 10px;
+    height: auto; /* Adjust height for mobile */
+  }
+  .popular h1 {
+    font-size: 30px;
+  }
+  .popular hr {
+    width: 120px;
+    height: 3px;
+  }
+  .popular-item {
+    width: 100%; /* Use full width for container */
+    gap: 15px;
+    flex-direction: column; /* Stack items vertically */
+  }
+  .popular-item > * {
+    max-width: 150px; /* Minimum practical size for components */
+  }
+  .popular-item img {
+    max-width: 150px; /* Minimum size for images */
+  }
+}
