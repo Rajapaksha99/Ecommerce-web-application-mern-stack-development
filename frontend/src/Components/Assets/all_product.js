@@ -38,7 +38,7 @@ import p36_img from "./product_36.png";
 let all_product = [
   {
     id: 1,
-    name: "Natural Pink Sapphire Pair 1.43 CTS",
+    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "women",
     image: p1_img,
     new_price: 50.0,
@@ -46,7 +46,7 @@ let all_product = [
   },
   {
     id: 2,
-    name: "4.37ct Natural Blue Sapphire",
+    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "women",
     image: p2_img,
     new_price: 85.0,
@@ -54,7 +54,7 @@ let all_product = [
   },
   {
     id: 3,
-    name: "0.62 Carats | Natural Unheated Blue Sapphire |",
+    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "women",
     image: p3_img,
     new_price: 60.0,
@@ -62,7 +62,7 @@ let all_product = [
   },
   {
     id: 4,
-    name: "Purple Garnet 4.66CT",
+    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "women",
     image: p4_img,
     new_price: 100.0,
@@ -70,7 +70,7 @@ let all_product = [
   },
   {
     id: 5,
-    name: "Natural Peach Sapphire 1.17CT",
+    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "women",
     image: p5_img,
     new_price: 85.0,
@@ -78,7 +78,7 @@ let all_product = [
   },
   {
     id: 6,
-    name: "Natural Padparadscha Sapphire 2.91CT",
+    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "women",
     image: p6_img,
     new_price: 85.0,
@@ -86,7 +86,7 @@ let all_product = [
   },
   {
     id: 7,
-    name: "0.62 Carats | Natural Unheated Blue Sapphire |",
+    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "women",
     image: p7_img,
     new_price: 85.0,
@@ -94,7 +94,7 @@ let all_product = [
   },
   {
     id: 8,
-    name: "1.52 CARAT PINK SAPPHIRE (HOT PINK)",
+    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "women",
     image: p8_img,
     new_price: 85.0,
@@ -102,7 +102,7 @@ let all_product = [
   },
   {
     id: 9,
-    name: "2.06 CARAT UNHEATED PINK SAPPHIRE",
+    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "women",
     image: p9_img,
     new_price: 85.0,
@@ -110,7 +110,7 @@ let all_product = [
   },
   {
     id: 10,
-    name: "2.06 CARAT UNHEATED PINK SAPPHIRE",
+    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "women",
     image: p10_img,
     new_price: 85.0,
@@ -118,7 +118,7 @@ let all_product = [
   },
   {
     id: 11,
-    name: "Green Sapphire (6)",
+    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "women",
     image: p11_img,
     new_price: 85.0,
@@ -126,7 +126,7 @@ let all_product = [
   },
   {
     id: 12,
-    name: "product2 Not heated",
+    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "women",
     image: p12_img,
     new_price: 85.0,
@@ -134,7 +134,7 @@ let all_product = [
   },
   {
     id: 13,
-    name: "1.30 CARAT UNHEATED ORANGE SAPPHIRE",
+    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
     image: p13_img,
     new_price: 85.0,
@@ -142,7 +142,7 @@ let all_product = [
   },
   {
     id: 14,
-    name: "1.06 CARAT UNHEATED PURPLE SAPPHIRE",
+    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
     image: p14_img,
     new_price: 85.0,
@@ -150,7 +150,7 @@ let all_product = [
   },
   {
     id: 15,
-    name: "1.07 CARAT WHITE SAPPHIRE",
+    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
     image: p15_img,
     new_price: 85.0,
@@ -158,7 +158,7 @@ let all_product = [
   },
   {
     id: 16,
-    name: "GREEN SAPPHIRE LOOSE LOT",
+    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
     image: p16_img,
     new_price: 85.0,
@@ -166,7 +166,7 @@ let all_product = [
   },
   {
     id: 17,
-    name: "0.94 CARAT PADPARADSCHA SAPPHIRE",
+    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
     image: p17_img,
     new_price: 85.0,
@@ -174,7 +174,7 @@ let all_product = [
   },
   {
     id: 18,
-    name: "1.89 CARAT PINK SAPPHIRE PAIR",
+    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
     image: p18_img,
     new_price: 85.0,
@@ -182,7 +182,7 @@ let all_product = [
   },
   {
     id: 19,
-    name: "1.38 CARAT ORANGE SAPPHIRE",
+    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
     image: p19_img,
     new_price: 85.0,
@@ -190,7 +190,7 @@ let all_product = [
   },
   {
     id: 20,
-    name: "3.41 CARAT UNHEATED GREEN SAPPHIRE",
+    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
     image: p20_img,
     new_price: 85.0,
@@ -198,7 +198,7 @@ let all_product = [
   },
   {
     id: 21,
-    name: "1.86 CARAT UNHEATED VIOLET SAPPHIRE",
+    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
     image: p21_img,
     new_price: 85.0,
@@ -206,7 +206,7 @@ let all_product = [
   },
   {
     id: 22,
-    name: "2.05 CARAT ORANGE SAPPHIRE",
+    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
     image: p22_img,
     new_price: 85.0,
@@ -214,7 +214,7 @@ let all_product = [
   },
   {
     id: 23,
-    name: "1.58 CARAT UNHEATED PADPARADSCHA SAPPHIRE",
+    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
     image: p23_img,
     new_price: 85.0,
@@ -222,7 +222,7 @@ let all_product = [
   },
   {
     id: 24,
-    name: "Padparadscha Sapphire",
+    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
     image: p24_img,
     new_price: 85.0,
@@ -230,7 +230,7 @@ let all_product = [
   },
   {
     id: 25,
-    name: "3.14 CARAT PINK SAPPHIRE",
+    name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
     image: p25_img,
     new_price: 85.0,
@@ -238,7 +238,7 @@ let all_product = [
   },
   {
     id: 26,
-    name: "5.09 CARAT UNHEATED WHITE SAPPHIRE",
+    name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
     image: p26_img,
     new_price: 85.0,
@@ -246,7 +246,7 @@ let all_product = [
   },
   {
     id: 27,
-    name: "2.08 CARAT UNHEATED PADPARADSCHA SAPPHIRE",
+    name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
     image: p27_img,
     new_price: 85.0,
@@ -254,7 +254,7 @@ let all_product = [
   },
   {
     id: 28,
-    name: "0.70 CARAT UNHEATED PADPARADSCHA SAPPHIRE",
+    name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
     image: p28_img,
     new_price: 85.0,
@@ -262,7 +262,7 @@ let all_product = [
   },
   {
     id: 29,
-    name: "1.64 CARAT UNHEATED RUBY",
+    name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
     image: p29_img,
     new_price: 85.0,
@@ -270,7 +270,7 @@ let all_product = [
   },
   {
     id: 30,
-    name: "6.07 CARAT STAR RUBY",
+    name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
     image: p30_img,
     new_price: 85.0,
@@ -278,7 +278,7 @@ let all_product = [
   },
   {
     id: 31,
-    name: "3.72 CARAT UNHEATED PURPLE SAPPHIRE",
+    name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
     image: p31_img,
     new_price: 85.0,
@@ -286,7 +286,7 @@ let all_product = [
   },
   {
     id: 32,
-    name: "2.45ct Spinel Gems",
+    name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
     image: p32_img,
     new_price: 85.0,
@@ -294,7 +294,7 @@ let all_product = [
   },
   {
     id: 33,
-    name: "4.33ct Tourmaline Gems",
+    name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
     image: p33_img,
     new_price: 85.0,
@@ -302,7 +302,7 @@ let all_product = [
   },
   {
     id: 34,
-    name: "3.22ct Pink Sapphire",
+    name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
     image: p34_img,
     new_price: 85.0,
@@ -310,7 +310,7 @@ let all_product = [
   },
   {
     id: 35,
-    name: "2.53 Carats | Natural Unheated Padparadscha|Loose Gemstone|",
+    name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
     image: p35_img,
     new_price: 85.0,
@@ -318,7 +318,7 @@ let all_product = [
   },
   {
     id: 36,
-    name: "0.62 Carats | Natural Unheated Blue Sapphire |",
+    name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
     image: p36_img,
     new_price: 85.0,

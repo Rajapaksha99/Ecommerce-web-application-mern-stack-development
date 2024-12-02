@@ -103,9 +103,9 @@ const AddProduct = () => {
           className='add-product-selector'
           id=""
         >
-          <option value="women">Shapphir</option>
-          <option value="men">Ruby</option>
-          <option value="kid">Other</option>
+          <option value="women">Mens</option>
+          <option value="men">Womens</option>
+          <option value="kid">Kids</option>
         </select>
       </div>
 
