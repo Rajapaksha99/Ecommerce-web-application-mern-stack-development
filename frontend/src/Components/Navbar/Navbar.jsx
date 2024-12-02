@@ -21,14 +21,14 @@ const Navbar = () => {
     <div className='navbar'>
       <div className='nav-logo'>
         <img src={logo} alt="" />
-        <p>SHOPPER</p>
+        <p>Sl GEM HUB</p>
       </div>
       <img onClick={dropdown_toggle} src={nav_dropdown} alt="" className='nav-dropdown'/>
       <ul ref={menuRef} className='nav-menu'>
         <li onClick={()=>{setMenu("shop")}}><Link style={{textDecoration: 'none'}} to='/'>Shop</Link>{menu==="shop"?<hr/>:<></>}</li>
-        <li onClick={()=>{setMenu("Men")}}><Link style={{textDecoration: 'none'}} to='mens'>Men</Link>{menu==="Men"?<hr/>:<></>}</li>
-        <li onClick={()=>{setMenu("Women")}}><Link style={{textDecoration: 'none'}} to='womens'>Women</Link>{menu==="Women"?<hr/>:<></>}</li>
-        <li onClick={()=>{setMenu("kids")}}><Link style={{textDecoration: 'none'}} to='kids'>Kids</Link>{menu==="kids"?<hr/>:<></>}
+        <li onClick={()=>{setMenu("Men")}}><Link style={{textDecoration: 'none'}} to='mens'>Sapphire</Link>{menu==="Men"?<hr/>:<></>}</li>
+        <li onClick={()=>{setMenu("Women")}}><Link style={{textDecoration: 'none'}} to='womens'>Ruby</Link>{menu==="Women"?<hr/>:<></>}</li>
+        <li onClick={()=>{setMenu("kids")}}><Link style={{textDecoration: 'none'}} to='kids'>Others</Link>{menu==="kids"?<hr/>:<></>}
         </li>
       </ul>
       <nav className='nav-login-cart'>
